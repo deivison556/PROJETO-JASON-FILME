@@ -1,0 +1,273 @@
+/* Importação de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); /* Font Alfa Slab One*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /* Font */
+
+/* Resetando configurações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url(../imagens/BACKGROUND\ INICIAL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+/* Cabeçalho de navegação do menu principal */
+header {
+    width: 1762px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo no cabeçalho */
+header img {
+    position: relative;
+    left: -50px;
+    top: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+/* Menu de naveção do cabeçalho */
+#container-navegation {
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+}
+
+/* Links da navegação do header */
+#container-navegation a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.8s;
+}
+
+#container-navegation a:hover {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Conteúdo principal */
+#container-movie {
+    margin-top: 350px;
+    margin-left: 40px;
+    width: 660px;
+    height: 272px;
+}
+
+/* Containe do título do filme */
+#container-movie h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #FAFF01;
+    font-family: 'Alfa Slab One', serif;
+}
+
+/* Container da descrição do filme */
+#container-movie #box-description {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-family: 'Alfa Slab One', serif;
+}
+
+/* container do genero do filme */
+#box-aboutmovie {
+    font-size: 40px;
+    color: white;
+    font-family: 'Anton', serif;
+}
+
+/* Container dos botões trailer e assistir */
+#box-watchmovie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+    height: 90px;
+}
+
+#box-watchmovie a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Botão de assisti */
+#box-watchmovie #btn-movie {
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #4371E6;
+}
+
+#box-watchmovie #btn-movie:hover {
+    background-color:#044bfd;
+}
+
+/* Botão do trailer */
+#box-watchmovie #btn-trailer {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #4371E6;
+}
+
+#box-watchmovie #btn-trailer:hover {
+    background-color:#044bfd;
+}
+
+/* Sessão sobre o personagem */
+#box-jason {
+    background-image: url(../imagens/BACKGROUND\ 02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+/* Título da sessão sobre personagem */
+#box-jason #box-titlesection {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Alfa Slab One', serif;
+}
+
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason {
+    width: 1192px;
+    height: 304px;
+    padding: 10px;
+    margin-top: 350px;
+    margin-left: 30px;
+    background-color: #1c1d1e;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Título do box sobre o Jason */
+#box-jason #box-descriptionjason #box-paragraphjason {
+    color: #faff01;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* box da imagem do Jason  */
+#box-jason #box-descriptionjason #box-figurejason {
+    position: relative;
+    top: -499px;
+    left: 830px;
+    width: 1026px;
+    height: 937px;
+    z-index: 1;
+}
+
+/* Sessão de filmes do Jason */
+#box-movie {
+    background-image: url(../imagens/BACKGROUND\ 03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+/* Container sobre os filmes */
+#box-movie #container-movies {
+    position: relative;
+    width: 1508px;
+    height: 791px;
+    margin: 0 auto;
+    top: 150px;
+}
+
+/* Titulo do filme */
+#container-movies #box-titlemovie {
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Alfa Slab One', serif;
+}
+
+/* Imagem principal do filme */
+#container-movies #figure-movie{
+    width: 417px;
+    height: 600px;
+}
+
+/* Box da descrição sobre o filme  */
+#container-movies #box-paragraphmovie {
+    display: inline-block;
+    position: relative;
+    top: -180px;
+    left: 20px;
+    width: 1000px;
+    height: 330px;
+    padding: 10px 15px;
+
+}
+
+/* paragrafo da descrição do filme */
+#container-movies #box-paragraphmovie p {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Anton', serif;
+}
+
+/* Titulos do box das imagens do filme */
+#container-movies #box-paragraphmovie h2 {
+    color: #ffffff;
+    margin-top: 40px;
+    border-bottom: 4px solid black;
+    letter-spacing: 4px;
+    width: 10%;
+    font-size: 30px;
+    font-family: 'Anton', serif;
+}
+
+#container-movies #box-movie2 {
+    display: inline-block;
+    margin: -100px 0 0 455px;
+    width: 930px;
+    height: 220px;
+}
+
+#container-movies #box-movie2 img {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#container-movies #box-movie2 img:hover {
+    border: 1px solid white;
+}
+
+
