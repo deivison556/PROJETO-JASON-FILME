@@ -11,9 +11,8 @@
 }
 
 body {
+    max-width: 100%;
     height: 100vh;
-    width: 100%;
-    overflow-x: hidden;
 }
 
 main {
@@ -21,11 +20,12 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     height: 1080px;
+    width: 100%;
 }
 
 /* Cabeçalho de navegação do menu principal */
 header {
-    width: 1762px;
+    width: 100%;
     height: 90px;
     margin: 0 auto;
     display: flex;
@@ -36,7 +36,7 @@ header {
 /* Logo no cabeçalho */
 header img {
     position: relative;
-    left: -50px;
+    left: 40px;
     top: 10px;
     width: 150px;
     height: 100px;
@@ -143,6 +143,7 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
+    width: 100%;
 }
 
 /* Título da sessão sobre personagem */
@@ -160,7 +161,6 @@ header img {
 #box-jason #box-descriptionjason {
     width: 1192px;
     height: 304px;
-    padding: 10px;
     margin-top: 350px;
     margin-left: 30px;
     background-color: #1c1d1e;
@@ -185,7 +185,7 @@ header img {
 #box-jason #box-descriptionjason #box-figurejason {
     position: relative;
     top: -499px;
-    left: 830px;
+    left: 826px;
     width: 1026px;
     height: 937px;
     z-index: 1;
@@ -197,6 +197,7 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
+    width: 100%;
 }
 
 /* Container sobre os filmes */
@@ -270,4 +271,117 @@ header img {
     border: 1px solid white;
 }
 
+/* Rodape do site */
+#box-footer {
+    background-color: #343434;
+    width: 100%;
+    height: 220px;
+}
 
+#box-footer #box-footer-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-footer #box-footer-itens h3 {
+    margin-top: 40px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 10px black;
+}
+
+#box-footer #box-footer-itens #box-social {
+    margin-top: 20px;
+}
+
+#box-footer #box-footer-itens #box-social a img {
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+
+#box-footer #box-footer-itens #box-social a img:hover {
+    transform: translateY(-10px);
+    transition: 2s;
+}
+
+/* Resposivo do site */
+/* Telas de 1680px */
+@media screen and (max-width:1680px) {
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason {
+    width: 1115px;
+    height: 280px;
+    background-color: #1c1d1e;
+}
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason p {
+    font-size: 25px;
+}
+
+/* box da imagem do Jason  */
+#box-jason #box-descriptionjason #box-figurejason {
+    width: 770px;
+}
+}
+
+/* Telas de 1440px */
+@media screen and (max-width: 1440px) {
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason {
+    width: 700px;
+    height: 250px;
+    background-color: #1c1d1e;
+}
+
+
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason p {
+    font-size: 22px;
+}
+
+/* box da imagem do Jason  */
+#box-jason #box-descriptionjason #box-figurejason {
+    top: -477px;
+    left: 331px;
+    width: 1026px;
+    height: 930px;
+}   
+
+/* Container sobre os filmes */
+#box-movie #container-movies {
+    width: 1405px;
+    height: 791px;
+}
+
+/* Titulo do filme */
+#container-movies #box-titlemovie {
+    margin-left: 20px;
+    text-shadow: 1px 2px 10px black;
+    font-size: 40px;
+}
+
+/* Imagem principal do filme */
+#container-movies #figure-movie {
+    margin-left: 20px;
+}
+
+/* Box da descrição sobre o filme  */
+#container-movies #box-paragraphmovie {
+    top: -120px;
+    width: 900px;
+    height: 380px;
+}
+
+/* paragrafo da descrição do filme */
+#container-movies #box-paragraphmovie p {
+    font-size: 30px;
+}
+#container-movies #box-movie2 {
+    margin-left: 475px;
+}
+}
