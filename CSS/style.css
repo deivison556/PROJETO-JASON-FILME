@@ -554,6 +554,11 @@ header img {
 
 /* Telas de 768´x */
 @media screen and (max-width: 768px) {
+/* Background do conteúdo principal */
+main {
+    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+}
+
 /* Logo no cabeçalho */
 header img {
     width: 110px;
@@ -563,6 +568,11 @@ header img {
 /* Menu de naveção do cabeçalho */
 #container-navegation {
     font-size: 16px;
+}
+
+/* Link de navegação transição */
+#container-navegation a:hover {
+    background-color: red;
 }
 
 /* Conteúdo principal */
@@ -597,4 +607,268 @@ header img {
     width: 185px;
 }
 }
+
+/* Telas dde 428px */
+@media screen and (max-width: 428px) {
+/* Background do conteúdo principal */
+main {
+    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+    background-position-x: -450px;
+}
+
+/* Cabeçalho de navegação do menu principal */
+header {
+    height: 120px;
+    flex-wrap: wrap;
+}
+
+/* Logo no cabeçalho */
+header img {
+    left: 0px;
+    margin: 0 auto;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Menu de naveção do cabeçalho */
+#container-navegation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+    gap: 0px 0px;
+    margin-right: 0px;
+    margin-top: -15px;
+}
+
+/* Links da navegação do header */
+#container-navegation a {
+    padding: 5px 10px;
+}
+
+/* Conteúdo principal */
+#container-movie {
+    margin-top: 320px;
+    margin-left: 20px;
+    width: 400px;
+    height: 380px;
+}
+
+/* Containe do título do filme */
+#container-movie h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Container da descrição do filme */
+#container-movie #box-description {
+    font-size: 16px;
+}
+
+/* container do genero do filme */
+#box-aboutmovie {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+/* Container dos botões trailer e assistir */
+#box-watchmovie {
+    justify-content: space-around;
+    width: 395px;
+    height: 90px;
+}
+
+#box-watchmovie a {
+    font-size: 18px;
+}
+
+/* Botão de assisti */
+#box-watchmovie #btn-movie {
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+}
+
+/* Botão do trailer */
+#box-watchmovie #btn-trailer {
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+}
+
+/* Sessão sobre o personagem */
+/* Título da sessão sobre personagem */
+#box-jason #box-titlesection {
+    left: 20px;
+    font-size: 30px;
+}
+
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason {
+    width: 350px;
+    height: 400px;
+    margin-top: 250px;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+/* Box de descrição sobre o Jason */
+#box-jason #box-descriptionjason p {
+    font-size: 20px;
+}
+
+/* box da imagem do Jason  */
+#box-jason #box-descriptionjason #box-figurejason {
+    position: relative;
+    top: -45px;
+    left: 69px;
+    width: 320px;
+    height: 450px;
+}
+
+/* Sessão de filmes do Jason */
+/* Container sobre os filmes */
+#box-movie #container-movies {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 1000px;
+    top: 50px;
+}
+
+/* Titulo do filme */
+#container-movies #box-titlemovie {
+    letter-spacing: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Imagem principal do filme */
+#container-movies #figure-movie{
+    width: 260px;
+    height: 300px;
+}
+
+/* Box da descrição sobre o filme  */
+#container-movies #box-paragraphmovie {
+    top: 10px;
+    left: 5px;
+    width: 360px;
+    height: 360px;
+    padding: 10px 15px;
+}
+
+/* paragrafo da descrição do filme */
+#container-movies #box-paragraphmovie p {
+    font-size: 18px;
+}
+
+/* Titulos do box das imagens do filme */
+#container-movies #box-paragraphmovie h2 {
+    margin-top: 10px;
+    width: 20%;
+    font-size: 30px;
+}
+
+/* Contaimer das imagens do filme */
+#container-movies #box-movie2 {
+    margin: 80px 0 0 20px;
+    width: 365px;
+    height: 215px;
+}
+
+#container-movies #box-movie2 img {
+    width: 160px;
+    height: 102px;
+}
+
+/* Rodape do site */
+#box-footer {
+    height: 150px;
+}
+
+#box-footer #box-footer-itens h3 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#box-footer #box-footer-itens #box-social {
+    margin-top: 20px;
+}
+}
+
+/* Telas de  414px*/
+@media screen and (max-width: 414px) {
+/* Background do conteúdo principal */
+main {
+    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+    background-position-x: -450px;
+}
+
+/* Conteúdo principal */
+#container-movie {
+    margin-top: 300px;
+    width: 380px;
+    height: 380px;
+}
+
+/* Containe do título do filme */
+#container-movie h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* Container da descrição do filme */
+#container-movie #box-description {
+    font-size: 16px;
+}
+
+/* container do genero do filme */
+#box-aboutmovie {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+/* Container dos botões trailer e assistir */
+#box-watchmovie {
+    width: 380px;
+}
+
+#box-watchmovie a {
+    font-size: 18px;
+}
+
+/* Botão de assisti */
+#box-watchmovie #btn-movie {
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+}
+
+/* Botão do trailer */
+#box-watchmovie #btn-trailer {
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+}
+
+/* Sessão sobre o personagem */
+/* Título da sessão sobre personagem */
+#box-jason #box-titlesection {
+    font-size: 28px;
+}
+
+/* box da imagem do Jason  */
+#box-jason #box-descriptionjason #box-figurejason {
+    left: 56px;
+}
+
+/* Rodape do site */
+#box-footer #box-footer-itens h3 {
+    font-size: 25px;
+}
+}
+
+/* Telas de 400 */
 
