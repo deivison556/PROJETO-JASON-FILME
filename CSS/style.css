@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    background-image: url(/imagens/BACKGROUND\ INICIAL.jpg);
+    background-image: url(../imagens/BACKGROUND\ INICIAL.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -563,7 +563,7 @@ header img {
 @media screen and (max-width: 768px) {
 /* Background do conteúdo principal */
 main {
-    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+    background-image: url(../imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
 }
 
 /* Logo no cabeçalho */
@@ -619,7 +619,7 @@ header img {
 @media screen and (max-width: 428px) {
 /* Background do conteúdo principal */
 main {
-    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+    background-image: url(../imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
     background-position-x: -450px;
 }
 
@@ -809,7 +809,7 @@ header img {
 @media screen and (max-width: 414px) {
 /* Background do conteúdo principal */
 main {
-    background-image: url(/imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
+    background-image: url(../imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
     background-position-x: -450px;
 }
 
