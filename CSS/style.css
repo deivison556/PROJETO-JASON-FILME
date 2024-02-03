@@ -71,7 +71,7 @@ header img {
     margin-top: 350px;
     margin-left: 40px;
     width: 660px;
-    height: 272px;
+    height: 240px;
 }
 
 /* Containe do título do filme */
@@ -665,7 +665,7 @@ header img {
 /* Background do conteúdo principal */
 main {
     background-image: url(../imagens/BACKGROUND-MAIN-SECUNDARIO.jpg);
-    background-position-x: -450px;
+    background-attachment: fixed;
 }
 
 /* Cabeçalho de navegação do menu principal */
@@ -704,7 +704,7 @@ header img {
     margin-top: 320px;
     margin-left: 20px;
     width: 400px;
-    height: 380px;
+    height: 300px;
 }
 
 /* Containe do título do filme */
@@ -863,7 +863,6 @@ main {
 #container-movie {
     margin-top: 300px;
     width: 380px;
-    height: 380px;
 }
 
 /* Containe do título do filme */
@@ -947,7 +946,6 @@ header img {
 #container-movie {
     margin-top: 300px;
     width: 360px;
-    height: 360px;
 }
 
 /* Containe do título do filme */
@@ -1068,7 +1066,6 @@ header img {
 #container-movie {
     margin-top: 300px;
     width: 315px;
-    height: 360px;
 }
 
 /* Containe do título do filme */
@@ -1200,7 +1197,7 @@ header img {
 #container-movie {
     margin-top: 300px;
     width: 290px;
-    height: 360px;
+    height: 310px;
 }
 
 /* Containe do título do filme */
